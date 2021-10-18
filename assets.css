@@ -1,0 +1,99 @@
+
+* {
+    box-sizing:border-box;
+    padding: 0;
+    margin: 0;
+    font-family: Montserrat Light;
+  }
+
+img {
+    vertical-align: middle;
+    border-style: none;
+    width: 110%;
+    height: auto;
+    max-width: 100px;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #787276;
+}
+
+a {
+float: right;
+text-align: center;
+display: inline-block;
+font-size: 1.5em;
+text-decoration:none;
+color:#ebeaeb;
+padding: 32px 16px 32px 16px;
+letter-spacing: .5px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Hero Styles */
+.hero {
+    height: 800px;
+    width: 100%;
+    background-image: url("images/MInimalist Style Lets Start Your Business Blog Banner (1).png");
+    background-size: cover;
+    background-position: center;
+}
+
+/*Services Styles*/
+.serv-full {
+    background-color: #ebeaeb;
+    color:#3e2d29;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.serv-mid {
+    text-align: center;
+}
+
+.serv-mid h1 {
+    font-weight: bold;
+}
+
+.serv- {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+    text-align: center;
+  }
+  
+  .services::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  /*Projects Styles*/
+  .proj-full {
+      background-color: #787276;
+      color:#ebeaeb;
+      padding-top: 20px;
+      padding-bottom: 20px;
+  }
+
+  .projects::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+.proj-mid {
+    text-align: center;
+}
+
+.images {
+    float:left;
+    width: 33.33%;
+    padding: 5px;
+    align-items: center;
+}
+
