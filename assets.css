@@ -6,7 +6,7 @@
     font-family: Montserrat Light;
   }
 
-img {
+.logo {
     vertical-align: middle;
     border-style: none;
     width: 110%;
@@ -22,7 +22,7 @@ img {
 a {
 float: right;
 text-align: center;
-display: inline-block;
+display:inherit;
 font-size: 1.5em;
 text-decoration:none;
 color:#ebeaeb;
@@ -47,8 +47,8 @@ a:hover {
 .serv-full {
     background-color: #ebeaeb;
     color:#3e2d29;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
 .serv-mid {
@@ -76,14 +76,14 @@ a:hover {
   .proj-full {
       background-color: #787276;
       color:#ebeaeb;
-      padding-top: 20px;
-      padding-bottom: 20px;
+      padding-top: 60px;
+      padding-bottom: 60px;
   }
 
-  .projects::after {
-    content: "";
-    clear: both;
-    display: table;
+  .projects {
+      display: flex;
+      justify-content: space-around
+
   }
 
 .proj-mid {
@@ -93,17 +93,24 @@ a:hover {
 div.gallery {
     margin: 5px;
     border: 1px solid #ccc;
-    float: right;
-    width: 180px;
+    display: flex;
+    flex-direction: column;
   }
   
   div.gallery:hover {
     border: 1px solid #3e2d29;
   }
+
+  .gallery a {
+      padding: 0;
+      margin: 0;
+
+  }
   
-  div.gallery img {
+  .gallery a img {
     width: 100%;
     height: auto;
+    padding:0px;
   }
   
   div.desc {
