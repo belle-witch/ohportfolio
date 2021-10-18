@@ -47,8 +47,8 @@ a:hover {
 .serv-full {
     background-color: #ebeaeb;
     color:#3e2d29;
-    padding-top: 60px;
-    padding-bottom: 60px;
+    padding-top: 80px;
+    padding-bottom: 80px;
 }
 
 .serv-mid {
@@ -77,8 +77,8 @@ a:hover {
   .proj-full {
       background-color: #787276;
       color:#ebeaeb;
-      padding-top: 60px;
-      padding-bottom: 60px;
+      padding-top: 80px;
+      padding-bottom: 80px;
   }
 
   .projects {
@@ -88,6 +88,7 @@ a:hover {
   }
 
 .proj-mid {
+    font-weight: bold;
     text-align: center;
     letter-spacing: 1px;
 }
@@ -115,8 +116,27 @@ div.gallery {
     padding:0px;
   }
   
-  div.desc {
+  .desc {
     padding: 15px;
     text-align: center;
   }
 
+/*About Me Section*/
+
+.aboutme {
+    display: flex;
+    background-color: #ebeaeb;
+    flex-direction: row;
+    text-align: right;
+    padding-top:  60px;
+    padding-bottom: 60px;
+}
+
+.aboutme h1 {
+    letter-spacing: 1px;
+    text-align:end
+}
+
+.aboutme img {
+    float: left;
+}
