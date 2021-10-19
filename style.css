@@ -1,4 +1,3 @@
-
 * {
     box-sizing:border-box;
     padding: 0;
@@ -83,8 +82,7 @@ a:hover {
 
   .projects {
       display: flex;
-      justify-content: space-around
-
+      justify-content: space-around;
   }
 
 .proj-mid {
@@ -127,19 +125,29 @@ div.gallery {
     color:#3e2d29;
     padding-top:  120px;
     padding-bottom: 120px;
+}
+
+.aboutme {
     display: flex;
 }
 
-.aboutme p{
-    flex-direction: row;
-    text-align:left;
-}
-
-.aboutme h1 {
+.about-full h1 {
     letter-spacing: 1px;
-    text-align:right
+    text-align:center;
 }
 
 .aboutme img {
     float: left;
+  
+}
+
+/*Contact Section*/
+.contact {
+    text-align: center;
+}
+.button {
+    background-color: #e2e8eb;
+    color: #3e2d29;
+    padding: 3px 6px 3px 6px;
+    border-radius: 12px;
 }
