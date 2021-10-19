@@ -127,27 +127,41 @@ div.gallery {
     padding-bottom: 120px;
 }
 
-.aboutme {
-    display: flex;
+.grid {
+    display: grid;
+  grid-template-columns: 1fr 2fr;
 }
 
-.about-full h1 {
+.aboutme h1 {
     letter-spacing: 1px;
     text-align:center;
 }
 
-.aboutme img {
-    float: left;
-  
-}
-
 /*Contact Section*/
 .contact {
+    /* display: flex;
+   text-align: center;
+   justify-content:space-around; */
+   padding-top: 120px;
+padding-bottom: 120px;
+margin: auto;
+}
+
+#contact h1 {
+    /* justify-content: center; */
     text-align: center;
 }
+
 .button {
+    position: absolute;
     background-color: #e2e8eb;
     color: #3e2d29;
     padding: 3px 6px 3px 6px;
     border-radius: 12px;
+    margin-left: 45%;
+    margin-right: 45%;
+}
+
+.contact div {
+    text-align: center;
 }
