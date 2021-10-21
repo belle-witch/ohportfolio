@@ -139,16 +139,12 @@ div.gallery {
 
 /*Contact Section*/
 .contact {
-    /* display: flex;
-   text-align: center;
-   justify-content:space-around; */
-   padding-top: 120px;
+padding-top: 120px;
 padding-bottom: 120px;
 margin: auto;
 }
 
 #contact h1 {
-    /* justify-content: center; */
     text-align: center;
 }
 
