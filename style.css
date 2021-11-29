@@ -162,5 +162,8 @@ div.gallery:hover {
 }
 
 @media only screen and (max-width: 600px) {
-    .gallery
+  .gallery {
+    display: flex;
+    flex-direction: column;
+  }
 }
