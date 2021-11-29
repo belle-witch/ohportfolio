@@ -1,163 +1,166 @@
 * {
-    box-sizing:border-box;
-    padding: 0;
-    margin: 0;
-    font-family: Montserrat Light;
-  }
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: Montserrat Light;
+}
 
 .logo {
-    vertical-align: middle;
-    border-style: none;
-    width: 110%;
-    height: auto;
-    max-width: 100px;
+  vertical-align: middle;
+  border-style: none;
+  width: 110%;
+  height: auto;
+  max-width: 100px;
 }
 
 .topnav {
-    overflow: hidden;
-    background-color: #787276;
+  overflow: hidden;
+  background-color: #787276;
 }
 
 a {
-float: right;
-text-align: center;
-display:inherit;
-font-size: 1.5em;
-text-decoration:none;
-color:#ebeaeb;
-padding: 32px 16px 32px 16px;
-letter-spacing: .5px;
+  float: right;
+  text-align: center;
+  display: inherit;
+  font-size: 1.5em;
+  text-decoration: none;
+  color: #ebeaeb;
+  padding: 32px 16px 32px 16px;
+  letter-spacing: 0.5px;
 }
 
 a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 /* Hero Styles */
 .hero {
-    height: 800px;
-    width: 100%;
-    background-image: url("images/MInimalist Style Lets Start Your Business Blog Banner (1).png");
-    background-size: cover;
-    background-position: center;
+  height: 600px;
+  width: 100%;
+  background-image: url("images/MInimalist Style Lets Start Your Business Blog Banner (1).png");
+  background-size: cover;
+  background-position: center;
 }
 
 /*Services Styles*/
 .serv-full {
-    background-color: #ebeaeb;
-    color:#3e2d29;
-    padding-top: 120px;
-    padding-bottom: 120px;
+  background-color: #ebeaeb;
+  color: #3e2d29;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .serv-mid {
-    text-align: center;
+  text-align: center;
 }
 
 .serv-mid h1 {
-    font-weight: bold;
-    letter-spacing: 1px;
+  font-weight: bold;
+  letter-spacing: 1px;
 }
 
 .serv- {
-    float: left;
-    width: 33.33%;
-    padding: 5px;
-    text-align: center;
-  }
-  
-  .services::after {
-    content: "";
-    clear: both;
-    display: table;
-  }
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+  text-align: center;
+}
 
-  /*Projects Styles*/
-  .proj-full {
-      background-color: #787276;
-      color:#ebeaeb;
-      padding-top: 120px;
-      padding-bottom: 120px;
-  }
+.services::after {
+  content: "";
+  clear: both;
+  display: table;
+}
 
-  .projects {
-      display: flex;
-      justify-content: space-around;
-  }
+/*Projects Styles*/
+.proj-full {
+  background-color: #787276;
+  color: #ebeaeb;
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.projects {
+  display: flex;
+  justify-content: space-around;
+}
 
 .proj-mid {
-    font-weight: bold;
-    text-align: center;
-    letter-spacing: 1px;
+  font-weight: bold;
+  text-align: center;
+  letter-spacing: 1px;
 }
 
 div.gallery {
-    margin: 5px;
-    border: 1px solid #ccc;
-    display: flex;
-    flex-direction: column;
-  }
-  
-  div.gallery:hover {
-    border: 1px solid #3e2d29;
-  }
+  margin: 5px;
+  border: 1px solid #ccc;
+  display: flex;
+  flex-direction: column;
+}
 
-  .gallery a {
-      padding: 0;
-      margin: 0;
+div.gallery:hover {
+  border: 1px solid #3e2d29;
+}
 
-  }
-  
-  .gallery a img {
-    width: 100%;
-    height: auto;
-    padding:0px;
-  }
-  
-  .desc {
-    padding: 15px;
-    text-align: center;
-  }
+.gallery a {
+  padding: 0;
+  margin: 0;
+}
+
+.gallery a img {
+  width: 100%;
+  height: auto;
+  padding: 0px;
+}
+
+.desc {
+  padding: 15px;
+  text-align: center;
+}
 
 /*About Me Section*/
 .about-full {
-    background-color: #ebeaeb;
-    color:#3e2d29;
-    padding-top:  120px;
-    padding-bottom: 120px;
+  background-color: #ebeaeb;
+  color: #3e2d29;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .grid {
-    display: grid;
+  display: grid;
   grid-template-columns: 1fr 2fr;
 }
 
 .aboutme h1 {
-    letter-spacing: 1px;
-    text-align:center;
+  letter-spacing: 1px;
+  text-align: center;
 }
 
 /*Contact Section*/
 .contact {
-padding-top: 120px;
-padding-bottom: 120px;
-margin: auto;
+  padding-top: 120px;
+  padding-bottom: 120px;
+  margin: auto;
 }
 
 #contact h1 {
-    text-align: center;
+  text-align: center;
 }
 
 .button {
-    position: absolute;
-    background-color: #e2e8eb;
-    color: #3e2d29;
-    padding: 3px 6px 3px 6px;
-    border-radius: 12px;
-    margin-left: 45%;
-    margin-right: 45%;
+  position: absolute;
+  background-color: #e2e8eb;
+  color: #3e2d29;
+  padding: 3px 6px 3px 6px;
+  border-radius: 12px;
+  margin-left: 45%;
+  margin-right: 45%;
 }
 
 .contact div {
-    text-align: center;
+  text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+    .gallery
 }
